@@ -23,6 +23,7 @@ public class HouseConstructionCompany {
         factory.buildWalls();
         factory.buildCeiling();
         factory.buildFurniture();
+        return null;
     }
     
 }
