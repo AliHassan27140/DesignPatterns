@@ -22,4 +22,8 @@ public interface Shape {
     void unSelect();
     boolean isSelected();
     void paint(Graphics graphics);
+    
+    /////////////
+    int[] xPosition();
+    int[] yPosition();
 }
