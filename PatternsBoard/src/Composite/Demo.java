@@ -16,7 +16,7 @@ public class Demo {
 
         editor.loadShapes(
                 new Circle(10, 10, 10, Color.BLUE),
-                 new Triangle(500, 10, 50, Color.RED),
+                 new Triangle(int x [370,400,430], int[80,20,80], Color.RED),
 
                 new CompoundShape(
                     new Circle(110, 110, 50, Color.RED),

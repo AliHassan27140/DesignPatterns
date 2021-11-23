@@ -24,6 +24,5 @@ public interface Shape {
     void paint(Graphics graphics);
     
     /////////////
-    int[] xPosition();
-    int[] yPosition();
+    
 }
