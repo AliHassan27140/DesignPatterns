@@ -28,7 +28,11 @@ public class Demo {
     }
 
     private static void export(Shape... shapes) {
-        XMLExportVisitor exportVisitor = new XMLExportVisitor();
-        System.out.println(exportVisitor.export(shapes));
+//        XMLExportVisitor exportVisitor = new XMLExportVisitor();
+//        System.out.println(exportVisitor.export(shapes));
+        
+        JSONExporter jsonExporter = new JSONExporter();
+        System.out.println(jsonExporter.export(shapes));
+       
     }
 }
